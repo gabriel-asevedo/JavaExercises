@@ -1,2 +1,4 @@
-# java-exercises
-Java was my first programming language, here are some of the exercises I did to deepen and solidify my knowledge, they are very useful for training.
+# Java Exercises
+[![NPM](https://img.shields.io/github/license/gabriel-asevedo/java-exercises)](https://github.com/gabriel-asevedo/java-exercises/blob/main/LICENSE)
+
+# About the project
