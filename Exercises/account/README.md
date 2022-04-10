@@ -3,6 +3,8 @@ Basic exercise for Upcasting, Downcasting and Inheritance compression.
 
 Suppose a bank business has a common account and a business account, where the business account has all common account members, plus a lending limit and a borrowing operation.
 
+![Account](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/account/assets/account_exercise.png)
+
 # Português
 Exercício básico para compressão de Upcasting, Downcasting e herança.
 
