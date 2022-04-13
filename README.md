@@ -6,9 +6,9 @@ Java Exercises is a set of exercises developed for training and improvement in t
 
 These are some of the exercises proposed in Professor **Nélio Alves**' Java course within the [Udemy](https://www.udemy.com/course/java-curso-completo/) platform.
 
-## Technologies used
+## Technologies used 💻
 - Eclipse IDE
-- Java 8
+- Java SE16
 
 ## Please note:
 ```bash
