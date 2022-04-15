@@ -1,4 +1,4 @@
-# English Version
+# English
 In a bank, to register a bank account, it is necessary to inform the account number, the name of the account holder and the amount of the initial deposit that the holder deposited when opening the account. This initial deposit amount is optional, if the option is not to deposit initially, the initial balance will naturally be zero.
 
 Note: Once the bank account has been opened, the account number can never be changed. The name of the holder can be changed (a person can change their name during their lifetime, for example, in marriage).
@@ -7,7 +7,7 @@ Finally, the account balance cannot be freely changed. There has to be a mechani
 
 You must create a program that performs the registration of an account, giving the option to inform or not the amount of the initial deposit. Then make a deposit and a withdrawal, always showing the account details after each trade.
 
-# Versão em Português
+# Português
 Em um banco, para registrar uma conta bancária, é necessário informar o número da conta, o nome do titular da conta e o valor do depósito inicial que o titular depositou ao abrir a conta. Este valor do depósito inicial é opcional, caso a opção seja não depositar inicialmente, o saldo inicial será naturalmente zero.
 
 Observação: uma vez que a conta bancária tenha sido aberta, o número da conta nunca poderá ser alterado. O nome do titular pode ser alterado (uma pessoa pode alterar seu nome durante a vida, por exemplo, no casamento).
