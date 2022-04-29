@@ -18,8 +18,6 @@ public class Program {
 
 			Product[] vect = new Product[number];
 
-			double sum = 0;
-
 			for (int i = 0; i < vect.length; i++) {
 				System.out.printf("\tProduct #%d\n", i + 1);
 				sc.nextLine();
@@ -29,13 +27,18 @@ public class Program {
 				double price = sc.nextDouble();
 
 				vect[i] = new Product(name, price);
+			}
 
-				sum += vect[i].getPrice();
+			double sum = 0;
+
+			for (Product product : vect) {
+				sum += product.getPrice();
 			}
 
 			double averagePrice = sum / vect.length;
 
 			System.out.println("\n((Product Data))");
+
 			for (Product product : vect) {
 				System.out.println(product);
 			}
