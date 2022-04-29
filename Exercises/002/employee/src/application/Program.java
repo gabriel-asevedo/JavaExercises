@@ -26,7 +26,6 @@ public class Program {
 
 			System.out.print("\nWhat percentage of salary increase? ");
 			double increaseSalary = sc.nextDouble();
-
 			emp.increaseSalary(increaseSalary);
 
 			System.out.println("\nUpdate Salary: " + emp);

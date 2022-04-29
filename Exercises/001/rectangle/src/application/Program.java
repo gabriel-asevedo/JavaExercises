@@ -23,7 +23,7 @@ public class Program {
 			System.out.println(rectangle);
 
 		} catch (RuntimeException e) {
-			System.out.println("!Error! Incorrectly entered data.");
+			System.out.println("ERROR: Data entered incorrectly");
 		}
 		sc.close();
 	}

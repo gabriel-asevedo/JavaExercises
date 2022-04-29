@@ -13,6 +13,7 @@ public class BankAccount {
 	public BankAccount(int accountNumber, String name) {
 		this.accountNumber = accountNumber;
 		this.name = name;
+		this.balance = (double) 0;
 	}
 
 	public BankAccount(int accountNumber, String name, Double balance) {
@@ -21,12 +22,12 @@ public class BankAccount {
 		this.balance = balance;
 	}
 
-	public double deposit(double value) {
-		return balance += value;
+	public void deposit(double value) {
+		balance += value;
 	}
 
-	public double withdraw(double value) {
-		return balance -= value + 5;
+	public void withdraw(double value) {
+		balance -= value + 5;
 	}
 
 	@Override
