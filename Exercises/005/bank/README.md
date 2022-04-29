@@ -15,3 +15,6 @@ Observação: uma vez que a conta bancária tenha sido aberta, o número da cont
 Por fim, o saldo da conta não pode ser alterado livremente. Tem que haver um mecanismo para proteger isso. O saldo só aumenta por meio de depósitos e só diminui por meio de saques. Para cada saque feito, o banco cobra uma taxa de $5,00. A conta pode ficar com saldo negativo se o saldo não for suficiente para sacar/pagar a taxa.
 
 Você deve criar um programa que realize o cadastro de uma conta, dando a opção de informar ou não o valor do depósito inicial. Em seguida, faça um depósito e uma retirada, sempre mostrando os dados da conta após cada operação.
+
+### <i/>Diagram&Example
+![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/005/bank/assets/bank1.png) ![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/005/bank/assets/bank2.png)
