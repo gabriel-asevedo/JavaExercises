@@ -4,8 +4,6 @@ A company has its own and outsourced employees. For each employee, the name, hou
 Employee pay corresponds to the hourly rate multiplied by the hours worked, with outsourced employees still receiving a bonus corresponding to 110% of their additional expense.
 
 Write a program to read the data of N employees (N provided by the user) and store it in a list. Show each employee's name and pay in the same order they were entered.
-  
-![employee_payments](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/employee_payments/assets/employee_payments.png)
 
 # Português
 Uma empresa possui funcionários próprios e terceirizados. Para cada funcionário, são registrados o nome, as horas trabalhadas e o valor por hora. Funcionários terceirizados possuem ainda uma despesa adicional.
