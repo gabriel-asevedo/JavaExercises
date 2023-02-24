@@ -22,7 +22,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return name + String.format("\t$%.2f", payment());
+		return name + "\t$" + String.format("%.2f", payment());
 	}
 
 	public String getName() {
