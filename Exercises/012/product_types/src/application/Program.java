@@ -61,13 +61,14 @@ public class Program {
 				System.out.println(product.priceTag());
 			}
 		} catch (ParseException e) {
-			System.out.println("Invalid date format");
+			System.out.println("Error: Invalid date format");
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
 		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
 		}
-
-		sc.close();
-
 	}
 
 }
