@@ -39,13 +39,16 @@ public class Program {
 			System.out.println("Reservation: " + reservation);
 
 		} catch (ParseException e) {
-			System.out.println("ERROR: Invalid date format");
+			System.out.println("Error: Invalid date format");
 		} catch (DomainException e) {
-			System.out.println("Error in reservation: " + e.getMessage());
+			System.out.println(e.getMessage());
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
 		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
 		}
-
-		sc.close();
 	}
+
 }
