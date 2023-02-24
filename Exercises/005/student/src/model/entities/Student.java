@@ -15,7 +15,7 @@ public class Student {
 
 		if (grade1 > 30 || grade2 > 35 || grade3 > 35) {
 			throw new StudentException(
-					"ERROR: Grade 1 limit is 30, Grade 2 and Grade 3 limit is 35.\n" + "Please re-enter data.");
+					"Error: Grade 1 limit is 30, Grade 2 and Grade 3 limit is 35.\n" + "Please re-enter data.");
 		}
 
 		this.name = name;

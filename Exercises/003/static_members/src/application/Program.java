@@ -19,11 +19,13 @@ public class Program {
 			System.out.printf("\nCircumference: %.2f\n", Calculator.circumference(radius));
 			System.out.printf("Volume: %.2f\n", Calculator.volume(radius));
 			System.out.printf("PI value: %.2f", Calculator.PI);
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
 		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
 		}
-
-		sc.close();
 
 	}
 

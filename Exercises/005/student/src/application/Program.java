@@ -27,13 +27,16 @@ public class Program {
 			System.out.println("\n\tStudent Data");
 			System.out.println(student);
 
-		} catch (StudentException e) {
+		} catch (StudentException s) {
 			System.out.println(e.getMessage());
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
 		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
 		}
 
-		sc.close();
 	}
 
 }
