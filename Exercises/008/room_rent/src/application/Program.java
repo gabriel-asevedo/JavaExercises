@@ -50,10 +50,13 @@ public class Program {
 				}
 
 			}
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
 		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
 		}
-		sc.close();
 	}
 
 }
