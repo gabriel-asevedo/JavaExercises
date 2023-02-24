@@ -56,11 +56,14 @@ public class Program {
 
 			System.out.println("\n\tTotal Tax:");
 			System.out.println(String.format("$%.2f", sum));
-		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
-		}
-		sc.close();
 
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
+		} catch (RuntimeException e) {
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
+		}
 	}
 
 }
