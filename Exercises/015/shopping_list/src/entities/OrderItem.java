@@ -17,18 +17,6 @@ public class OrderItem {
 		this.product = product;
 	}
 
-	public Double subTotal() {
-		return quantity * price;
-	}
-
-	@Override
-	public String toString() {
-		return product.getName() 
-				+ ", $" + String.format("%.2f", price) 
-				+ ", Quantity: " + quantity 
-				+ ", SubTotal: $" + String.format("%.2f", subTotal());
-	}
-
 	public Integer getQuantity() {
 		return quantity;
 	}
@@ -51,6 +39,18 @@ public class OrderItem {
 
 	public void setProduct(Product product) {
 		this.product = product;
+	}
+	
+	public Double subTotal() {
+		return quantity * price;
+	}
+
+	@Override
+	public String toString() {
+		return product.getName() 
+				+ ", $" + String.format("%.2f", price) 
+				+ ", Quantity: " + quantity 
+				+ ", SubTotal: $" + String.format("%.2f", subTotal());
 	}
 
 }
