@@ -43,11 +43,14 @@ public class Program {
 			account.withdraw(withdraw);
 
 			System.out.println(account);
-		} catch (RuntimeException e) {
-			System.out.println("ERROR: Data entered incorrectly");
-		}
 
-		sc.close();
+		} catch (InputMismatchException i) {
+			System.out.println("Error: Incorrectly entered data.");
+		} catch (RuntimeException e) {
+			System.out.println("Unexpected error.");
+		} finally {
+			sc.close();
+		}
 	}
 
 }
