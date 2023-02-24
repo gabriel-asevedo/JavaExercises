@@ -17,4 +17,4 @@ Por fim, o saldo da conta não pode ser alterado livremente. Tem que haver um me
 Você deve criar um programa que realize o cadastro de uma conta, dando a opção de informar ou não o valor do depósito inicial. Em seguida, faça um depósito e uma retirada, sempre mostrando os dados da conta após cada operação.
 
 ### <i/>Diagram&Example
-![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/005/bank/assets/bank1.png) ![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/005/bank/assets/bank2.png)
+![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/006/bank/assets/bank1.png) ![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/006/bank/assets/bank2.png)
