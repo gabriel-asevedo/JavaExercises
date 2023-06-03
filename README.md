@@ -1,4 +1,4 @@
-# Java Exercises
+# Java Exercises ![icon](Exercises/assets/logo-java-duke.png)
 [![NPM](https://img.shields.io/github/license/gabriel-asevedo/java-exercises)](https://github.com/gabriel-asevedo/java-exercises/blob/main/LICENSE)
 
 ## About the project
