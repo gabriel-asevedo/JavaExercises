@@ -27,7 +27,9 @@ public class BankAccount {
 	}
 
 	public void withdraw(double value) {
-		balance -= value + 5;
+		if (value > 0) {
+			balance -= value + 5;
+		}
 	}
 
 	@Override
