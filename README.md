@@ -10,7 +10,8 @@ It's my first project created on gitHub, it carries the affection I have for the
 
 ## Technologies used 💻⚙️
 - Eclipse IDE
-- Java SE16
+- JDK16 && JDK17
+
 
 ## Note:
 ```bash
