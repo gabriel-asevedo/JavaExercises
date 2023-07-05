@@ -7,3 +7,6 @@ Use static members for resolution.
 Faça um programa para ler qualquer valor numérico, e mostre quanto seria o valor de um círculo e o volume de uma esfera para um raio desse valor, informe também o valor de PI com duas casas decimais. 
 
 Use membros estáticos para a resolução.
+
+### <i/>Example
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/003/static_members/assets/static_members1.png)
