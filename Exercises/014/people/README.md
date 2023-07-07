@@ -23,3 +23,6 @@ Exemplo: uma pessoa cuja renda foi de 50000.00 e teve 2000.00 em gastos com saú
 Pessoa Jurídica: pessoas jurídica pagam 16% de impostos. Porém, se a empresa possuir mais de 10 funcionários, ela paga 14% de imposto.
 
 Exemplo: uma empresa cuja renda foi de 400000.00 e possui 25 funcionários, o imposto fica: 400000 * 14% = 56000.00
+
+### <i/>Example
+![image](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/014/people/assets/people1.png)
