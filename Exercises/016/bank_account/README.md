@@ -3,3 +3,8 @@ Make a program to read data from a bank account and then make a withdrawal from 
 
 # Português
 Fazer um programa para ler os dados de uma conta bancária e depois realizar um saque nesta conta bancária, mostrando o novo saldo. Um saque não pode ocorrer se não houver saldo na conta, ou se o valor do saque for superior ao limite de saque da conta.
+
+### <i/>Diagram&Example
+![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/016/bank_account/assets/bankaccount1.png) 
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/016/bank_account/assets/bankaccount2.png) 
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/016/bank_account/assets/bankaccount3.png)
