@@ -7,3 +7,6 @@ Make a program that starts with all ten empty rooms and then reads an amount N r
 O proprietário de uma pensão dispõe de dez quartos para alugar a estudantes, sendo estes quartos identificados pelos números de 0 a 9.
 
 Faça um programa que comece com todas dez quartos vazios e, em seguida, leia uma quantidade N que representa o número de estudantes que alugarão as salas (N pode ser de 1 a 10). Em seguida, registre o aluguel dos N estudantes. Para cada registro de aluguel, informe o nome e e-mail do aluno, bem como quais quartos ele escolheu (de 0 a 9). Suponha que um quarto vago seja escolhido. Ao final, seu programa deverá imprimir um relatório de todas as ocupações locadas, por ordem de quarto.
+
+### <i/>Example
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/008/room_rent/assets/room_rent1.png)
