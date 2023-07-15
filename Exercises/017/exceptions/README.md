@@ -7,3 +7,8 @@ Make a program to read the data of a hotel reservation (room number, check-in da
 Fazer um programa para ler os dados de uma reserva de hotel(número do quarto, data de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva e mostrar novamente a reserva com dados atualizados. O programa não deve aceitar dados inválidos para a reserva, conforme as seguintes regras: 
 - Alterações de reserva só podem ocorrer para datas futuras
 - A data de saída deve ser maior que a data de entrada
+
+- ### <i/>Diagram&Example
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/ee23c20494a03dfa4dd1d00f805fc80651534f57/Exercises/017/exceptions/assets/exceptions2.png) 
+![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/ee23c20494a03dfa4dd1d00f805fc80651534f57/Exercises/017/exceptions/assets/exceptions1.png) 
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/ee23c20494a03dfa4dd1d00f805fc80651534f57/Exercises/017/exceptions/assets/exceptions3.png)
