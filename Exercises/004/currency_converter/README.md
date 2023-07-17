@@ -4,5 +4,5 @@ Write a program to read the dollar exchange rate and then enter a dollar amount 
 # Português
 Escreva um programa para ler a cotação do dólar e, em seguida, insira um valor em dólar para comprar. Informar quanto a pessoa pagará pelos dólares, considerando que a pessoa terá que pagar 6% de IOF sobre o valor em dólares. Crie uma classe CurrencyConverter para ser responsável pelos cálculos.
 
-### <i/>Diagram&Example
+### <i/>Example
 ![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/004/currency_converter/assets/currency_converter1.png)
