@@ -13,4 +13,4 @@ O pagamento dos funcionários corresponde ao valor da hora multiplicado pelas ho
 Fazer um programa para ler os dados de N funcionários (N fornecido pelo usuário) e armazenálos em uma lista.  Mostrar o nome e pagamento de cada funcionário na mesma ordem em que foram digitados.
 
 ### <i/>Diagram
-![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/011/employee_payments/assets/employee_payments.png)
+![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/014/employee_payments/assets/employee_payments.png)
