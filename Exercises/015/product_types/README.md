@@ -9,5 +9,5 @@ Escreva um programa para ler dados de N produtos (N fornecidos pelo usuário). A
 Cada produto tem um nome e um preço. Os produtos importados possuem taxa alfandegária e os produtos usados possuem data de fabricação. Esses dados específicos devem ser adicionados à etiqueta de preço. Para produtos importados, o imposto e alfândega devem ser adicionados ao preço final do produto.
 
 ### <i/>Diagram&Example
-![product_types](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/012/product_types/assets/product__types.png)
+![product_types](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/015/product_types/assets/product__types.png)
 
