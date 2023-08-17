@@ -6,4 +6,4 @@ Ler os dados de um trabalhador com N contratos (N fornecidos pelo usuário). Em 
 
 ### <i/>Diagram&Example
 ![Diagram](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/011/worker/assets/diagram.png)
-![Example]()
+![Example](https://github.com/gabriel-asevedo/java-exercises/blob/main/Exercises/011/worker/assets/example_1.png)
