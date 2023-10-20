@@ -12,8 +12,10 @@ import entities.Person;
 public class Program {
 
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
+
 		List<Person> list = new ArrayList<>();
 
 		try {
@@ -24,6 +26,12 @@ public class Program {
 				System.out.printf("\n\tTaxpayer #%d\t\n", i + 1);
 				System.out.print("Natural Person or Legal Person? (n/l): ");
 				String option = sc.next();
+
+				while (validation(option)) {
+					System.out.print("Invalid option, Try Again (n/l): ");
+					option = sc.next();
+				}
+
 				System.out.print("Name: ");
 				sc.nextLine();
 				String name = sc.nextLine();
@@ -33,29 +41,29 @@ public class Program {
 				if (option.equalsIgnoreCase("n")) {
 					System.out.print("Health spending: $");
 					double HealthSpending = sc.nextDouble();
-
 					list.add(new NaturalPerson(name, annualIncome, HealthSpending));
+
 				} else if (option.equalsIgnoreCase("l")) {
 					System.out.print("Number of company employees: ");
 					int employeeNumber = sc.nextInt();
-
 					list.add(new LegalPerson(name, annualIncome, employeeNumber));
+
 				}
 			}
 
 			System.out.println("\n\tTax Paid:");
 
+			double totalTaxes = 0.0;
+			for (Person person : list) {
+				totalTaxes += person.taxPaid();
+			}
+
 			for (Person person : list) {
 				System.out.println(person);
 			}
 
-			double sum = 0;
-			for (Person person : list) {
-				sum += person.taxPaid();
-			}
-
 			System.out.println("\n\tTotal Tax:");
-			System.out.println(String.format("$%.2f", sum));
+			System.out.println(String.format("$%.2f", totalTaxes));
 
 		} catch (InputMismatchException i) {
 			System.out.println("Error: Incorrectly entered data.");
@@ -64,6 +72,10 @@ public class Program {
 		} finally {
 			sc.close();
 		}
+	}
+
+	public static Boolean validation(String option) {
+		return (option.equalsIgnoreCase("n")) || (option.equalsIgnoreCase("l")) ? false : true;
 	}
 
 }

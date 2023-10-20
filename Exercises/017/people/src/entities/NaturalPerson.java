@@ -2,49 +2,28 @@ package entities;
 
 public class NaturalPerson extends Person {
 
-	private Double healthSpending;
+	private Double healthExpenses;
 
 	public NaturalPerson() {
-		super();
 	}
 
-	public NaturalPerson(String name, Double annualIncome, Double healthSpending) {
+	public NaturalPerson(String name, Double annualIncome, Double healthExpenses) {
 		super(name, annualIncome);
-		this.healthSpending = healthSpending;
+		this.healthExpenses = healthExpenses;
 	}
 
-	public Double getHealthSpending() {
-		return healthSpending;
-	}
-
-	public void setHealthSpending(Double healthSpending) {
-		this.healthSpending = healthSpending;
+	public Double gethealthExpenses() {
+		return healthExpenses;
 	}
 
 	@Override
-	public double taxPaid() {
-		double tax;
-
-		if (annualIncome < 20000.00) {
-			tax = annualIncome * 15 / 100;
-
-			if (healthSpending != 0) {
-				tax -= healthSpending * 50 / 100;
-			}
-
-		} else {
-			tax = annualIncome * 25 / 100;
-
-			if (healthSpending != 0) {
-				tax -= healthSpending * 50 / 100;
-			}
-		}
-
-		return tax;
+	public final Double taxPaid() {
+		Double value = (annualIncome < 20000.0) ? 0.15 : 0.25;
+		return (healthExpenses == 0.0) ? annualIncome * value : annualIncome * value - healthExpenses * 0.50;
 	}
 
 	@Override
-	public String toString() {
+	public final String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(name + String.format("\t$%.2f", taxPaid()));
 		return sb.toString();

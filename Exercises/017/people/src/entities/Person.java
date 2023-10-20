@@ -6,7 +6,6 @@ public abstract class Person {
 	protected Double annualIncome;
 
 	public Person() {
-		super();
 	}
 
 	public Person(String name, Double annualIncome) {
@@ -26,12 +25,9 @@ public abstract class Person {
 		return annualIncome;
 	}
 
-	public void setAnnualIncome(Double annualIncome) {
-		this.annualIncome = annualIncome;
-	}
-
 	public abstract double taxPaid();
 
+	@Override
 	public abstract String toString();
 
 }
