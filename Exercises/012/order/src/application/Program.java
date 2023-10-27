@@ -20,7 +20,7 @@ public class Program {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
 		try {
-			System.out.println("Client Data");
+			System.out.println("// Enter Client Data //");
 			System.out.print("Name: ");
 			String name = sc.nextLine();
 			System.out.print("Email: ");
@@ -30,12 +30,13 @@ public class Program {
 
 			Client client = new Client(name, email, birthDate);
 
-			System.out.println("Order Data");
-			System.out.print("Status: ");
+			System.out.println("// Enter Order Data //");
+			System.out.print("Status (PENDING_PAYMENT, PROCESSING, SHIPPED, DELIVERED): ");
 			OrderStatus status = OrderStatus.valueOf(sc.next());
 
 			Order order = new Order(new Date(), status, client);
 
+			System.out.println("");
 			System.out.print("How many items to this order? ");
 			int numberOrder = sc.nextInt();
 
