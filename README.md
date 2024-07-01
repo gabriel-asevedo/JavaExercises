@@ -12,7 +12,6 @@ It's my first project created on gitHub, it carries the affection I have for the
 - Eclipse IDE
 - JDK16 && JDK17
 
-
 ## Note:
 ```bash
 Each exercise has its Readme.md in English and Portuguese, explaining the proposed exercise.
